@@ -1,0 +1,94 @@
+    1  sudo apt-get update
+    2  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+    3  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+    4  sudo apt-key fingerprint 0EBFCD88
+    5  stable test
+    6  stable nighty
+    7  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+    8     $(lsb_release -cs) \
+    9     stable"
+   10  sudo apt-get update
+   11  sudo apt-get install docker-ce docker-ce-cli containerd.io
+   12  sudo docker run hello-world
+   13  docker run --help
+   14  docker --version
+   15  sudo docker run hello-world
+   16  pwd
+   17  curl -fsSL https://get.docker.com -o get-docker.sh
+   18  sudo sh get-docker.sh
+   19  sudo usermod -aG docker tanvir
+   20  sudo usermod -aG docker tanvir917
+   21  sudo docker run hello-world
+   22  docker run -i -t ubuntu /bin/bash
+   23  sudo apt-get update
+   24  sudo apt-get install docker-ce docker-ce-cli containerd.io
+   25  sudo docker run hello-world
+   26  sudo service docker start
+   27  sudo docker run hello-world
+   28  sudo journalctl -fu docker
+   29  docker ps
+   30  sudo service docker restart
+   31  docker ps
+   32  systemctl start docker
+   33  sudo dockerd
+   34  docker ps
+   35  doker run hello-world
+   36  docker run hello-world
+   37  sudo doker run hello-world
+   38  sudo docker run hello-world
+   39  ls
+   40  pwd
+   41  cd/
+   42  cd pwd
+   43  pwd
+   44  ls
+   45  ls -al
+   46  git init demo
+   47  ls
+   48  cd demo
+   49  ls -al
+   50  git status
+   51  mate README.md
+   52  gedit README.md
+   53  touch README.md
+   54  ls
+   55  pwd
+   56  mate README1.md
+   57  Pal Pal Dil Ke PaasPal Pal Dil Ke PaasPal Pal Dil Ke Paas
+   58  git status
+   59  cd ..
+   60  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+   61  sudo apt-get install apt-transport-https
+   62  echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+   63  sudo apt-get update
+   64  sudo apt-get install sublime-text
+   65  alias subl="/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"
+   66  subl .
+   67  subl text.txt
+   68  ls
+   69  ls -al
+   70  cd demo
+   71  git status
+   72  git add README.md
+   73  git status
+   74  git ccommit -m "my first file in demo"
+   75  git mmit -m "my first file in demo"
+   76  id groups
+   77  id -gn
+   78  groups tanvir917
+   79  sudo adduser -g niketon,modhubag tanvir917
+   80  sudo adduser -g modhubag tanvir917
+   81  sudo adduser modhubag tanvir917
+   82  sudo adduser tanvir917 modhubag
+   83  sudo adduser tanvir917 niketon
+   84  groups tanvir917
+   85  ls -l
+   86  sudo chmod 111 testfile
+   87  ls -l
+   88  sudo chmod -R 111 testd
+   89  ls -l
+   90  sudo chmod -R 676 testd
+   91  ls -l
+   92  sudo chown -r rahat testd
+   93  sudo chown -R rahat testd
+   94  ls -l
